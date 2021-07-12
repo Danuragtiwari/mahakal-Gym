@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAHAKAL.GYM</title>
+</head>
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<style>
+    body {
+        padding: 0px;
+        margin: 0px;
+        color: white;
+        font: bold;
+        background: url('project1.jpg');
+    }
+    
+    .left {
+        display: inline-block;
+        position: absolute;
+        top: 25px;
+    }
+    
+    .mid {
+        color: blue;
+        font: bolder;
+        display: block;
+        width: 45%;
+        margin: 25px auto;
+    }
+    
+    .right {
+        position: absolute;
+        top: 25px;
+        right: 45px;
+        display: inline-block;
+    }
+    
+    .navi li {
+        display: inline;
+        margin: 10px;
+        padding: 1px;
+    }
+    
+    a {
+        font-size: 30px;
+        text-decoration: none;
+    }
+    
+    .navi li a:hover {
+        text-decoration: underline;
+        color: darkred;
+    }
+    
+    .left img {
+        width: 109px;
+        padding-left: 4px;
+        filter: invert(100%);
+    }
+    
+    .left div {
+        text-align: center;
+    }
+    /* .left {
+        position: sticky;
+    } */
+    
+    .btn {
+        border-radius: 10px;
+        margin: 5px;
+        padding: 6px;
+        background-color: rgb(155, 155, 204);
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: rgba(48, 32, 136, 0.472);
+    }
+    
+    .content {
+        border: 2px solid blue;
+        margin-top: 161px;
+        margin-left: 111px;
+        padding: 68px;
+    }
+    
+    h1 {
+        font-size: bold;
+        color: rgb(4, 4, 255);
+        text-align: center;
+    }
+    
+    .form-group input {
+        display: block;
+        padding: 4px;
+        width: 36%;
+        text-align: center;
+        margin: 4px auto;
+        border: 4px solid black;
+        border-radius: 1px;
+    }
+    
+    .content button {
+        display: block;
+        width: 33%;
+        margin: 2px auto;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="project.2.jpg" alt="">
+            <div>MAHAKAL.GYM</div>
+
+        </div>
+        <div class="mid ">
+            <ul class="navi">
+                <li><a href="#" class='active'>Home   </a></li>
+                <li><a href="#">About   </a></li>
+                <li><a href="#">Information   </a></li>
+                <li><a href="#">Contact us    </a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us NOW!!
+
+        </button><button class="btn">email us </button>
+        </div>
+    </header>
+    <div class="content">
+        <h1>join the best gym (MAHAKAL) of india</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your email"></div>
+
+            <button class="btn">submit</button>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
